@@ -1,2 +1,2 @@
-# Ola-mundo
-Meu primeiro repositório no github.
+# jogo-da-memoria
+Jogo da memoria simples
