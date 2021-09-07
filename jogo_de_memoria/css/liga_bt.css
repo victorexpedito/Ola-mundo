@@ -1,0 +1,22 @@
+.verde{
+    animation: verde .5s ease-in-out ;
+}
+@keyframes verde{
+    100%{background-color: green;}
+}
+
+
+.vermelho{
+    animation: vermelho .5s ease-in-out ;
+}
+@keyframes vermelho{
+    100%{background-color: red;}
+}
+
+.ligar{
+    animation: luzacertos .5s infinite linear;
+}
+
+@keyframes luzacertos{
+    100%{background-color: green;}
+}

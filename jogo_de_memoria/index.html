@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width = device-width, initial-scale:1">
+	<meta charset="utf-8">
+	<title>Jogo</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/liga_bt.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section class="tablete">
+	<section class="acertos">
+
+			<span id="luz1" class="luzes"></span>
+			<span id="luz2" class="luzes"></span>
+			<span id="luz3" class="luzes"></span>
+			<span id="luz4" class="luzes"></span>
+			<span id="luz5" class="luzes"></span>
+			<span id="luz6" class="luzes"></span>
+			<span class="divisoria"></span>
+			<span id="vitoria1" class="luzes"></span>
+			<span id="vitoria2" class="luzes"></span>
+			<span id="vitoria3" class="luzes"></span>
+
+	</section>
+
+
+	<section class="teclado">
+	
+		<button id="tecla1"onclick="toque(1)" class="botoes"></button>
+		<button id="tecla2"onclick="toque(2)" class="botoes"></button>
+		<button id="tecla3"onclick="toque(3)" class="botoes"></button>
+		<button id="tecla4"onclick="toque(4)" class="botoes"></button>
+		<button id="tecla5"onclick="toque(5)" class="botoes"></button>
+		<button id="tecla6"onclick="toque(6)" class="botoes"></button>
+		<button id="tecla7"onclick="toque(7)" class="botoes"></button>
+		<button id="tecla8"onclick="toque(8)" class="botoes"></button>
+		<button id="tecla9"onclick="toque(9)" class="botoes"></button>
+	
+	</section>
+
+</section>
+
+<section id="ofuscasao"></section>
+
+<section id="pop_up" class="pop_up">
+	<p>Você ganhol! :)</p>
+	<button class="bt_pop_up" onclick="restart()">Jogar de novo</button>
+</section>
+
+<section class="menu">
+	<button class="bt_start" onclick="start()">Start</button>
+	<button class="bt_restart" onclick="restart()">Restart</button>
+</section>
+
+<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>

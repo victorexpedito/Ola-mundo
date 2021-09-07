@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.tablete{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto;
+    
+    
+    height: 550px;
+    width: 500px;
+    background-color: DarkSlateGray;
+    
+    border-radius: 15px;
+    border: solid black 2px;
+}
+
+.teclado{
+    gap: 10px;
+    width: 85%;
+    height: 75%;
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.botoes{
+    cursor: pointer;
+    display: block;
+    background-color: Thistle;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    border: solid black 2px;
+    transition: all linear .2s;
+}
+
+.botoes:hover{
+    transform: scale(1.05);
+}
+
+.acertos{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.luzes{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin: 1px;
+    border: solid black 2px;
+    
+    background-color: black;
+}
+
+.divisoria{
+    width: 30px;
+}
+
+#ofuscasao{
+    z-index: 1;
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(16,16,16,.5);
+    opacity: 1;
+}
+
+.pop_up{
+    z-index: 2;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 15px;
+}
+
+.bt_pop_up{
+    padding: 20px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .2s all linear;
+}
+
+.bt_pop_up:hover{
+    transform: scale(1.05);
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 250px;
+    width: 200px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.menu button{
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+    height: 50px;
+    width: 60px;
+    font-size: 20px;
+    background-color: ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .2s linear all;
+}
+
+.menu button:hover{
+    transform: scale(1.05);    
+}
